@@ -91,14 +91,14 @@
           <h1 class="title is-1 publication-title">DITTO-NeRF: Diffusion-based Iterative Text To Omni-directional 3D Model</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="https://keunhong.com">Hoigi Seo</a><sup>1</sup>,</span>
+              <a href="https://github.com/seohoiki3215">Hoigi Seo</a><sup>1</sup>,</span>
             <span class="author-block">
-              <a href="https://utkarshsinha.com">Hayeon Kim</a><sup>1</sup>,</span>
+              <a href="https://janeyeon.github.io/">Hayeon Kim</a><sup>1</sup>,</span>
             <span class="author-block">
-              <a href="https://jonbarron.info">Gwanghyun Kim</a><sup>1</sup>,
+              <a href="https://gwang-kim.github.io/">Gwanghyun Kim</a><sup>1</sup>,
             </span>
             <span class="author-block">
-              <a href="http://sofienbouaziz.com">Se Young Chun</a><sup>1, 2</sup>,
+              <a href="https://icl.snu.ac.kr/pi">Se Young Chun</a><sup>1, 2</sup>
             </span>
           </div>
 
@@ -132,15 +132,15 @@
                 </a>
               </span>
               <!-- Video Link. -->
-              <!-- <span class="link-block">
-                <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
+              <span class="link-block">
+                <a href="https://youtu.be/fpzkL_fBfOo"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-youtube"></i>
                   </span>
                   <span>Video</span>
                 </a>
-              </span> -->
+              </span>
               <!-- Code Link. -->
               <span class="link-block">
                 <a href="https://github.com/janeyeon/ditto-nerf-code.git"
@@ -184,63 +184,6 @@
   </div>
 </section>
 
-<!-- 
-<section class="hero is-light is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-steve">
-          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/steve.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-chair-tp">
-          <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/chair-tp.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-shiba">
-          <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/shiba.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-fullbody">
-          <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/fullbody.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-blueshirt">
-          <video poster="" id="blueshirt" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/blueshirt.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-mask">
-          <video poster="" id="mask" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/mask.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-coffee">
-          <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/coffee.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-toby">
-          <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/toby2.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section> -->
 
 
 <section class="section">
@@ -265,7 +208,7 @@
         <div class="publication-video">
           <!-- <iframe src="./static/videos/main.mp4"
                   frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
-          <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
+          <video poster="" id="main" autoplay controls muted loop playsinline height="100%">
             <source src="./static/videos/main.mp4"
                     type="video/mp4">
           </video>
@@ -285,13 +228,12 @@
       <!-- Visual Effects. -->
       <div class="column">
         <div class="content">
-          <h2 class="title is-3">Visual Effects</h2>
+          <h2 class="title is-3">Convert single image to 3D </h2>
           <p>
-            Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
-            would be impossible without nerfies since it would require going through a wall.
+            Diet-NeRF
           </p>
           <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/dollyzoom-stacked.mp4"
+            <source src="./static/videos/cabin/dietnerf_cabin.mp4"
                     type="video/mp4">
           </video>
         </div>
@@ -300,31 +242,47 @@
 
       <!-- Matting. -->
       <div class="column">
-        <h2 class="title is-3">Matting</h2>
+        <!-- <h2 class="title is-3">Matting</h2> -->
         <div class="columns is-centered">
           <div class="column content">
             <p>
-              As a byproduct of our method, we can also solve the matting problem by ignoring
-              samples that fall outside of a bounding box during rendering.
+              NeuralLift-360
             </p>
-            <video id="matting-video" controls playsinline height="100%">
-              <source src="./static/videos/matting.mp4"
+            <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/cabin/neurallift_cabin.mp4"
                       type="video/mp4">
             </video>
           </div>
-
         </div>
       </div>
+      <!--/ Matting. -->
+
+      <!-- Matting. -->
+      <div class="column">
+        <!-- <h2 class="title is-3">Matting</h2> -->
+        <div class="columns is-centered">
+          <div class="column content">
+            <p>
+              Ours(DITTO-NERF)
+            </p>
+            <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/cabin/cabin.mp4"
+                      type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+      <!--/ Matting. -->
+
     </div>
-    <!--/ Matting. -->
 
     <!-- Animation. -->
     <div class="columns is-centered">
       <div class="column is-full-width">
-        <h2 class="title is-3">Animation</h2>
+        <h2 class="title is-3">Image to 3D output</h2>
 
         <!-- Interpolating. -->
-        <h3 class="title is-4">Interpolating states</h3>
+        <!-- <h3 class="title is-4">Convert single image into 3D output</h3>
         <div class="content has-text-justified">
           <p>
             We can also animate the scene by interpolating the deformation latent codes of two input
@@ -354,7 +312,7 @@
             <p class="is-bold">End Frame</p>
           </div>
         </div>
-        <br/>
+        <br/> -->
         <!--/ Interpolating. -->
 
         <!-- Re-rendering. -->
