@@ -1,6 +1,6 @@
 # DITTO-NeRF
 
-This is the repository that contains source code for the [DITTO-NeRF website](https://ditto-nerf.github.io).
+This is the repository that contains source code for the [DITTO-NeRF website](https://janeyeon.github.io/ditto-nerf/).
 
 <!-- If you find Nerfies useful for your work please cite:
 ```
